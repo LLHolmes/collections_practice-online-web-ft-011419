@@ -38,3 +38,8 @@ def find_a(array)
   array.collect { |word| word if word.start_with? }
 end
 
+def sum_array(array)
+  sum = 0
+  sum = sum + array.each { |x| x }
+end
+
