@@ -43,9 +43,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  
   array.each_with_index.collect do |word, i|
-    age < 2 ? "baby" : "not a baby"
-    word << "s" unless word == array [1]
+    word == array [1] ? word : word << "s"
   end
 end
