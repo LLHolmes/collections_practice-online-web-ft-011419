@@ -24,5 +24,6 @@ def swap_elements_from_to(array, x, y)
   new_array
 end
 
-# Advanced #2: Try writing test coverage for it!
+def reverse_array
+  
 
