@@ -30,7 +30,7 @@ end
 
 def kesha_maker(array)
   made_kesha = []
-  array.each { |string| string[2] = $ }
+  array.each { |string| string[2] = "$" }
   made_kesha
 end
 
