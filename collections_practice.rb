@@ -24,6 +24,8 @@ def swap_elements_from_to(array, x, y)
   new_array
 end
 
-def reverse_array
-  
+def reverse_array(array)
+  array.reverse
+end
 
+def kesha_maker
