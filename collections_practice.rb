@@ -43,3 +43,5 @@ def sum_array(array)
   sum = sum + array.each { |x| x }
 end
 
+def add_s(array)
+  array.each_with_index.collect { |word, i| word
