@@ -34,7 +34,8 @@ end
 
 def find_a(array)
   a_found = []
-  array.each { |word| a_found << word if word.start_with?("a") == true }
+  array.each { |word| a_found << word if word.start_with?("a") }
+  a_found
 end
 
 def sum_array(array)
