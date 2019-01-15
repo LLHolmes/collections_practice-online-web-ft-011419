@@ -28,4 +28,9 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker
+def kesha_maker(array)
+  made_kesha = []
+  array.each { |string| string[2] = $ }
+  made_kesha
+end
+
